@@ -199,16 +199,33 @@ video {
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  /* transition: all ease 0.6s; */
+  transition: all ease 0.6s;
 }
 #card1{
-  background-image: url(https://tse3.mm.bing.net/th?id=OIP.UA_E4DsT740kgtZGyWCWagHaE7&pid=Api&P=0&h=180);
+  background-image: url(https://www.dailypioneer.com/uploads/2020/story/images/big/growing-organic-together-2020-06-15.jpg);
 }
 #card2{
-  background-image: url(https://tse3.mm.bing.net/th?id=OIP.E1jYx6L2TqPEdSvjmuOUIwHaE8&pid=Api&P=0&h=180);
+  background-image: url(https://images.pexels.com/photos/533346/pexels-photo-533346.jpeg?auto=compress&cs=tinysrgb&w=600);
+  
 }
 #card3{
   background-image: url(https://tse1.mm.bing.net/th?id=OIP.Zdv8QbCFBsX4DmJJ_6iBCQHaF7&pid=Api&P=0&h=180);
+  
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
 .overlay {
   height: 100%;
@@ -234,3 +251,72 @@ video {
 .card:hover .overlay {
   opacity: 1;
 }
+.card:hover {
+  transform: rotate3d(-1, 1, 0, 20deg);
+}
+#greendiv {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+  background: linear-gradient(to left,#ffe4e1 ,brown);
+}
+#greendiv h4 {
+  width: 45%;
+  line-height: 50px;
+  color: #000;
+  text-align: center;
+  font-weight: 800;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+#greendiv img {
+  height: 100%;
+  object-fit: cover;
+  width: 25%;
+}
+#page3 {
+  height: 70vh;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+#page3 > p {
+  font-size: 35px;
+  font-weight: 700;
+  width: 60%;
+  line-height: 45px;
+  text-align: center;
+}
+#page3 img {
+  position: absolute;
+  height: 60px;
+}
+#page3 #colon1 {
+  left: 15%;
+  top: 25%;
+}
+#page3 #colon2 {
+  bottom: 30%;
+  right: 15%;
+}
+#footer {
+  height: 20vh;
+  width: 100%;
+  background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
+  align-items: center;
+}
+#footer h1,h2,h5,li{
+  text-align: center;
+
+}
+#footer h4{
+  text-align: center;
+  font-weight: 900;
+  font-size: large;
+}
+ 
